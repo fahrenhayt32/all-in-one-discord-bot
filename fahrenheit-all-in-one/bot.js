@@ -5,7 +5,7 @@ const bot = new Aoijs.Bot({
   shardAmount: 2, //Shard sayısı 
   mobile: false, //true veya false - botun status'ünü mobil olarak gösterir
  
-  token: " ", //Discord Bot Token
+  token: " ", //Discord Bot Tokeninizi giriniz
   prefix: ["$getServerVar[prefix]"] // botun prefixi
 })
 bot.status({
