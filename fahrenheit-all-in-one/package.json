@@ -1,0 +1,21 @@
+{
+  "name": "fahrenheit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "fahrenheit",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.js": "^1.0.6",
+    "canvacord": "^5.2.0",
+    "canvas": "^2.7.0",
+    "dbd.js": "^3.0.6",
+    "ytdl-core": "^4.8.0"
+  }
+}
