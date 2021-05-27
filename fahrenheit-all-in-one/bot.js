@@ -6,7 +6,7 @@ const bot = new Aoijs.Bot({
   mobile: false, //true veya false - botun status'ünü mobil olarak gösterir
  
   token: " ", //Discord Bot Tokeninizi giriniz
-  prefix: ["$getServerVar[prefix]"] // botun prefixi
+  prefix: ["$getServerVar[prefix]"] // botun prefixi buraya ellemeyin bu ayarlamalı prefix komutu için gerekli eğer prefixi değiştirmek istiyor iseniz 19.satırdan değiştirin. veyahut komut kullanarak sunucunuzda değiştirebilirsiniz!
 })
 bot.status({
     text: "Yeni Özellikler Geliyor!",
